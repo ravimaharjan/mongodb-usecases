@@ -7,7 +7,8 @@ from database.mongo_db import get_db
 fake = Faker()
 
 # For simplicity, broker_list and bank_list are hard coded. These values
-# are taken from the Database itself. Replace with the actual query
+# are taken from the Database itself. If you want, you can replace it with
+# code to read ids from the MongoDB
 
 broker_list = [
     "610ab4ff-67c6-4225-b48a-3f53a3262f22",
